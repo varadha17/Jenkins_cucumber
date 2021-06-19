@@ -41,8 +41,8 @@ public class LoginPage extends baseTest{
 	public void dataTableTest(DataTable table) throws InterruptedException {
 		Thread.sleep(5000);
 		List<List<String>> list = table.asLists();
-		for(List<String> col: list) {
-			username.sendKeys(col.get(0));
+		for(List<String> col1: list) {
+			username.sendKeys(col1.get(0));
 		}
 		Thread.sleep(4000);
 	}
