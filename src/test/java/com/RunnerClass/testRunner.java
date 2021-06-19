@@ -9,8 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		features="src/test/resources",
-		glue="com.stepDefinition",
-		//tags="@smoke",
+		glue="com.stepDefinition", 
 		plugin= {"html:target/cucumber-reports.html","rerun:target/failedtestcase.txt", "timeline:target/thread-time"},
 		publish=true,
 		monochrome=true,
