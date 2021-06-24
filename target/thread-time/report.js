@@ -1,36 +1,47 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "79555baa-c641-4cf8-b0dd-0f886dfec6b6",
+    "id": "ffca9301-a00d-4494-805c-02fad4e097b6",
+    "feature": "Validate Login Page",
+    "scenario": "Check Username and password is valid and it should land into homepage",
+    "start": 1624553760972,
+    "group": 1,
+    "content": "",
+    "tags": "@login,@smoke,",
+    "end": 1624553773113,
+    "className": "passed"
+  },
+  {
+    "id": "5c1ed516-9ba4-476e-a860-35a18a4cbda2",
+    "feature": "HomePage",
+    "scenario": "get login user name",
+    "start": 1624553711830,
+    "group": 1,
+    "content": "",
+    "tags": "@home,@smoke,",
+    "end": 1624553735105,
+    "className": "passed"
+  },
+  {
+    "id": "e47ac86d-13a1-4174-93a0-9e0ae3c97e65",
     "feature": "HomePage",
     "scenario": "get Broken Links",
-    "start": 1624084038730,
+    "start": 1624553735120,
     "group": 1,
     "content": "",
     "tags": "@home,@smoke,@functional,",
-    "end": 1624084062866,
+    "end": 1624553760972,
     "className": "passed"
   },
   {
-    "id": "1ec7ceb2-da32-4ec0-afd6-31e95e8f5d44",
-    "feature": "HomePage",
-    "scenario": "get free account details",
-    "start": 1624084016844,
-    "group": 1,
-    "content": "",
-    "tags": "@home,@functional,",
-    "end": 1624084038719,
-    "className": "passed"
-  },
-  {
-    "id": "acfaee41-8c3d-4435-832f-defa24a37d8f",
+    "id": "d351733f-4916-4a4e-8607-bfabdccdbfdf",
     "feature": "Validate Login Page",
     "scenario": "getBrokenLinks",
-    "start": 1624084062872,
+    "start": 1624553773113,
     "group": 1,
     "content": "",
     "tags": "@login,@smoke,@functional,",
-    "end": 1624084068753,
+    "end": 1624553776128,
     "className": "passed"
   }
 ]);
