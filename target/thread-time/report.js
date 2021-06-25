@@ -1,47 +1,47 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "ffca9301-a00d-4494-805c-02fad4e097b6",
-    "feature": "Validate Login Page",
-    "scenario": "Check Username and password is valid and it should land into homepage",
-    "start": 1624553760972,
-    "group": 1,
-    "content": "",
-    "tags": "@login,@smoke,",
-    "end": 1624553773113,
-    "className": "passed"
-  },
-  {
-    "id": "5c1ed516-9ba4-476e-a860-35a18a4cbda2",
-    "feature": "HomePage",
-    "scenario": "get login user name",
-    "start": 1624553711830,
-    "group": 1,
-    "content": "",
-    "tags": "@home,@smoke,",
-    "end": 1624553735105,
-    "className": "passed"
-  },
-  {
-    "id": "e47ac86d-13a1-4174-93a0-9e0ae3c97e65",
-    "feature": "HomePage",
-    "scenario": "get Broken Links",
-    "start": 1624553735120,
-    "group": 1,
-    "content": "",
-    "tags": "@home,@smoke,@functional,",
-    "end": 1624553760972,
-    "className": "passed"
-  },
-  {
-    "id": "d351733f-4916-4a4e-8607-bfabdccdbfdf",
+    "id": "815c6178-4ded-4459-8af6-89aaeed4853a",
     "feature": "Validate Login Page",
     "scenario": "getBrokenLinks",
-    "start": 1624553773113,
+    "start": 1624596766637,
     "group": 1,
     "content": "",
     "tags": "@login,@smoke,@functional,",
-    "end": 1624553776128,
+    "end": 1624596769636,
+    "className": "passed"
+  },
+  {
+    "id": "117c59a1-d473-42f7-a7f2-e799340aea43",
+    "feature": "HomePage",
+    "scenario": "get Broken Links",
+    "start": 1624596736838,
+    "group": 1,
+    "content": "",
+    "tags": "@home,@smoke,@functional,",
+    "end": 1624596754550,
+    "className": "passed"
+  },
+  {
+    "id": "10d64483-ea17-4145-8c2d-e8d80f9c7b55",
+    "feature": "Validate Login Page",
+    "scenario": "Check Username and password is valid and it should land into homepage",
+    "start": 1624596754550,
+    "group": 1,
+    "content": "",
+    "tags": "@login,@smoke,",
+    "end": 1624596766637,
+    "className": "passed"
+  },
+  {
+    "id": "1a33e7ba-1d91-4b06-a244-8fed67b1b02d",
+    "feature": "HomePage",
+    "scenario": "get login user name",
+    "start": 1624596718374,
+    "group": 1,
+    "content": "",
+    "tags": "@home,@smoke,",
+    "end": 1624596736822,
     "className": "passed"
   }
 ]);
