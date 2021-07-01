@@ -27,5 +27,5 @@ jobs:
     - name: Deploy report in Target Folder
       uses: peaceiris/actions-gh-pages@v3
       with:
-        pulish_dir: ./target
+        publish_dir: ./target
         
