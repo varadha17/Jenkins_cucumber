@@ -23,3 +23,9 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn test
+    
+    - name: Deploy report in Target Folder
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        pulish_dir: ./target
+        
