@@ -30,21 +30,17 @@ public class baseTest {
 	}
 	
 	
-	
+	String browser = prop.getProperty("browser");
 	
 	public static void initialize_webdriver() {
 		
-		String chromebrowser = prop.getProperty("chrome.browser");
-		String firefoxbrowser = prop.getProperty("ff.browser");
-		String headless = prop.getProperty("headless.browser");
-		
-		if(chromebrowser.equalsIgnoreCase("chrome")) {
+		if(browser.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		} else if(firefoxbrowser.equalsIgnoreCase("firefox")) {
+		} else if(browser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-		} else if(headless.equalsIgnoreCase("headless")) {
+		} else if(browser.equalsIgnoreCase("headless")) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions ch = new ChromeOptions();
 			ch.addArguments("window-size=1400x600");
