@@ -1,69 +1,69 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "1878192c-d4a1-44cb-b548-5c53c08193d7",
-    "feature": "Validate Login Page",
-    "scenario": "Check Username and password is valid and it should land into homepage",
-    "start": 1625129494211,
-    "group": 1,
-    "content": "",
-    "tags": "@login,@smoke,",
-    "end": 1625129506149,
-    "className": "passed"
-  },
-  {
-    "id": "051749d5-628a-44a8-8d63-3e322a6331d9",
+    "id": "aae5bb44-4ca0-4744-855b-89dc8b8f908b",
     "feature": "HomePage",
     "scenario": "get login user name",
-    "start": 1625129428250,
+    "start": 1632819119610,
     "group": 1,
     "content": "",
     "tags": "@home,@smoke,",
-    "end": 1625129464511,
+    "end": 1632819151424,
     "className": "passed"
   },
   {
-    "id": "cc6b8703-fa06-468b-b234-0d410804c11a",
+    "id": "6f722474-cee2-481e-843b-0a289cffc4c7",
     "feature": "HomePage",
     "scenario": "get free account details",
-    "start": 1625129464533,
+    "start": 1632819151445,
     "group": 1,
     "content": "",
     "tags": "@home,@functional,",
-    "end": 1625129480505,
+    "end": 1632819167783,
     "className": "passed"
   },
   {
-    "id": "12a83f62-c6f1-4f0a-9eb4-b97065524317",
+    "id": "776b5a99-0536-4214-a262-3b8d47912726",
     "feature": "HomePage",
     "scenario": "get Broken Links",
-    "start": 1625129480512,
+    "start": 1632819167798,
     "group": 1,
     "content": "",
     "tags": "@home,@smoke,@functional,",
-    "end": 1625129493930,
+    "end": 1632819181256,
     "className": "passed"
   },
   {
-    "id": "e4315fc9-22fe-4ba6-bcf7-f00e8db75f01",
-    "feature": "Validate db",
-    "scenario": "Validate connection for db",
-    "start": 1625129493935,
-    "group": 1,
-    "content": "",
-    "tags": "@db,",
-    "end": 1625129494207,
-    "className": "passed"
-  },
-  {
-    "id": "3cd66d29-a9a1-4b10-ab45-9cde0f9a0e58",
+    "id": "f3e9a8ee-5dc5-4c53-847f-dc2edb8cc129",
     "feature": "Validate Login Page",
     "scenario": "getBrokenLinks",
-    "start": 1625129506154,
+    "start": 1632819193467,
     "group": 1,
     "content": "",
     "tags": "@login,@smoke,@functional,",
-    "end": 1625129508950,
+    "end": 1632819196065,
+    "className": "passed"
+  },
+  {
+    "id": "bfda4624-2ae3-461e-b660-cbad8d822613",
+    "feature": "Validate db",
+    "scenario": "Validate connection for db",
+    "start": 1632819181261,
+    "group": 1,
+    "content": "",
+    "tags": "@db,",
+    "end": 1632819181580,
+    "className": "passed"
+  },
+  {
+    "id": "d44e57e8-038a-4eaf-a582-11dfbe4c0617",
+    "feature": "Validate Login Page",
+    "scenario": "Check Username and password is valid and it should land into homepage",
+    "start": 1632819181587,
+    "group": 1,
+    "content": "",
+    "tags": "@login,@smoke,",
+    "end": 1632819193462,
     "className": "passed"
   }
 ]);
